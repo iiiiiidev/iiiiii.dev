@@ -57,3 +57,48 @@ a:hover {
     color: #0f111a;
     box-shadow: 0 0 20px #ffffff;
 }
+
+.tree {
+    font-size: 1.25rem;
+    line-height: 1.8;
+    max-height: 70vh;
+    overflow-y: auto;
+}
+
+.tree-root {
+    color: #9ca3af;
+}
+
+.tree ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.tree-pipe {
+    color: #9ca3af;
+    user-select: none;
+}
+
+.tree a,
+.tree-back {
+    font-size: inherit;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+}
+
+.tree a:hover,
+.tree-back:hover {
+    background: none;
+    color: #fff;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.tree-back {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #9ca3af;
+    font-size: 1rem;
+}
